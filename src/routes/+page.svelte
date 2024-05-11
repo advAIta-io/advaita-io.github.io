@@ -4,7 +4,7 @@
 </script>
 
 <nav class="p-4 flex justify-between items-center bg-[#121481] text-2xl">
-    <a href="/">
+    <a href="{base}/">
         <img src="{logo}" alt="The advAIta logo" class="h-auto w-[100px] mt-[-5px]">
     </a>
     <ul class="flex gap-8">
