@@ -1,7 +1,6 @@
 <script>
-    import github from "$lib/assets/github.svg"
     import logo from "$lib/assets/advaita-logo.png"
-    import gmail from "$lib/assets/envelope-solid.svg"
+    import { base } from "$app/paths"
 </script>
 
 <nav class="p-4 flex justify-between items-center bg-[#121481] text-2xl">
@@ -9,7 +8,7 @@
         <img src="{logo}" alt="The advAIta logo" class="h-auto w-[100px] mt-[-5px]">
     </a>
     <ul class="flex gap-8">
-        <li><a href="/" class="inline-block text-[#FFEAE3] hover:transition-colors ease-in-out hover:text-[#FD7776] hover:scale-105  duration-300">About</a></li>
+        <li><a href="{base}/" class="inline-block text-[#FFEAE3] hover:transition-colors ease-in-out hover:text-[#FD7776] hover:scale-105  duration-300">About</a></li>
         <li>
             <a href="https://github.com/advaita-io/">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="h-auto w-8 fill-[#FFEAE3] hover:transition-colors ease-in-out hover:fill-[#FD7776] hover:scale-105  duration-300">
