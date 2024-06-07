@@ -22,10 +22,9 @@
             <p>Join Amith in our first offline meetup!</p>
             <p>Amith will be going through the paper (linked below) and also implement it on a smaller scale using Llama-3!</p>
             <p>Date: TBA soon!</p>
-            <div class="card-actions justify-start">
-                <!-- <a href="https://arxiv.org/abs/2405.02957" target="_blank"></a> -->
-                <button formaction="https://arxiv.org/abs/2405.02957" class="btn btn-block btn-outline btn-accent">Paper</button>
-            </div>
+            <a href="https://arxiv.org/abs/2405.02957" target="_blank" class="card-actions justify-start">
+                <button class="btn btn-block btn-outline btn-accent">Paper</button>
+            </a>
         </div>
     </div>
 </div>
